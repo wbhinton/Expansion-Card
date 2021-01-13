@@ -195,11 +195,11 @@ class _ExpansionTileState extends State<ExpansionCard> with SingleTickerProvider
     _borderColorTween
       ..end = theme.dividerColor;
     _headerColorTween
-      ..begin = Colors.white
-      ..end = Color(0xff60c9df);
+      ..begin = Color(0x78757B)
+      ..end = Color(0xDA291C);
     _iconColorTween
-      ..begin = Colors.white
-      ..end = Color(0xff60c9df);
+      ..begin = Color(0x78757B)
+      ..end = Color(0xDA291C);
     _backgroundColorTween
       ..end = widget.backgroundColor;
     super.didChangeDependencies();
